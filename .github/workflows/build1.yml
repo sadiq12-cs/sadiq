@@ -44,9 +44,6 @@ jobs:
         distribution: 'temurin'
         java-version: '21'
 
-    - name: Enable Flet Flutter support
-      run: flet enable-flutter
-
     - name: Build APK
       run: flet pack apk --release
 
